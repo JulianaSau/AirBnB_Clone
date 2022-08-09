@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 '''
 Contains the base model for all other classes
 '''
@@ -28,7 +28,7 @@ class BaseModel:
             self.id = str(uuid.uuid4())
             self.created_at = datetime.now()
             self.updated_at = datetime.now()
-            models.storage.new(self)
+            '''models.storage.new(self)'''
 
         def save(self):
             '''
@@ -36,7 +36,7 @@ class BaseModel:
             with the current datetime
             '''
             self.updated_at = datetime.now()
-            models.storage.save()
+            '''models.storage.save()'''
 
         def __str__(self):
             '''
