@@ -1,6 +1,6 @@
 # 0x00. AirBnB clone - The console
 
-![hbnb-screenshot](https://github.com/JulianaSau/AirBnB_clone/blob/main/img/hbnb_console.png)
+![hbnb-screenshot](https://github.com/JulianaSau/AirBnB_clone/blob/main/img/hbnb_console.PNG)
 
 This is the first step towards building a first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
 
