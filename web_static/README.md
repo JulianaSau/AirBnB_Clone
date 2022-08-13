@@ -1,6 +1,7 @@
 # 0x01. AirBnB clone - Web static
 
 HTML CSS Front-end
+![hbnb-screenshot](https://github.com/JulianaSau/AirBnB_clone/blob/main/web_static/images/airbnb_web.jpeg)
 
 ## Background Context
 
