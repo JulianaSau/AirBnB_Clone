@@ -1,18 +1,17 @@
 #!/usr/bin/python3
-'''
-Module contains class user
-'''
+
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
     '''
-    A model for the user
-    Attributes:
-        email (str): The user's email
-        password (str): The user's password
-        first_name (str): The user's first name
-        last_name (str): The user's last name
+    Inherits from BaseModel
+
+        attributes:
+        - email -  email address of user
+        - password - password for user account
+        - first_name - user's firstname
+        - last_name - user's last name
     '''
     email = ""
     password = ""
